@@ -1,16 +1,18 @@
 {
   "name": "jekyll-post-generator",
   "displayName": "Jekyll Post Generator",
-  "description": "快速创建 Jekyll 博客文章",
+  "description": "Quickly create new Jekyll posts with front matter and proper filenames",
   "version": "0.0.1",
+  "publisher": "k-r-o-s",
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.60.0"
   },
   "contributes": {
     "commands": [
       {
         "command": "jekyll.newPost",
-        "title": "New Jekyll Post"
+        "title": "New Jekyll Post",
+        "category": "Jekyll"
       }
     ]
   },
@@ -21,9 +23,15 @@
   "scripts": {
     "package": "vsce package"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "k-r-o-s",
+  "license": "MIT",
   "devDependencies": {
     "vsce": "^2.15.0"
-  }
+  },
+  "keywords": [
+    "jekyll",
+    "blog",
+    "post",
+    "front-matter"
+  ]
 }
