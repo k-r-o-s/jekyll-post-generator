@@ -16,12 +16,16 @@
       }
     ]
   },
+  "activationEvents": [
+    "onCommand:jekyll.newPost"
+  ],
   "categories": [
     "Other"
   ],
   "main": "./extension.js",
   "scripts": {
-    "package": "vsce package"
+    "package": "vsce package",
+    "publish": "vsce publish"
   },
   "author": "k-r-o-s",
   "license": "MIT",
@@ -33,5 +37,6 @@
     "blog",
     "post",
     "front-matter"
-  ]
+  ],
+  "repository": "https://github.com/k-r-o-s/jekyll-post-generator"
 }
