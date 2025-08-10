@@ -1,0 +1,29 @@
+{
+  "name": "jekyll-post-generator",
+  "displayName": "Jekyll Post Generator",
+  "description": "快速创建 Jekyll 博客文章",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "jekyll.newPost",
+        "title": "New Jekyll Post"
+      }
+    ]
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "scripts": {
+    "package": "vsce package"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
